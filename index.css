@@ -54,11 +54,12 @@ div.page-wrapper{
     display: grid;
     grid-template-columns: repeat(4,75%);
 }
-.explanation{
-    
-}
+
 .sidebar{
   grid-column-start: 4;
   grid-row-start: 1;
   grid-row-end: 3 ;
+}
+@media screen and (max-width: 720px){
+    
 }
