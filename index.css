@@ -9,18 +9,11 @@
     font-family: sans-serif;
     font-size: 0.875em;
     line-height: 1.6em;
-    /* background-image: url(img/background.jpeg); */
     background-color: rgb(231, 228, 228);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-main{
-    
-}
-main aside{
-  
-}
 div.page-wrapper{
    display: grid;
    grid-template-columns: repeat(4,25%);
@@ -41,9 +34,9 @@ div.page-wrapper{
     height: 15em;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
 .intro .summary{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -57,8 +50,9 @@ div.page-wrapper{
     grid-row-end: 3;
 }
 .supporting{
+    grid-column-start: 1;
     display: grid;
-    grid-template-columns: repeat(4,100%);
+    grid-template-columns: repeat(4,75%);
 }
 .explanation{
     
