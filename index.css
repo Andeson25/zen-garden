@@ -16,7 +16,7 @@ body {
 .page-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(3, 30%);
+  grid-template-rows: repeat(4, 30%);
 }
 .intro {
   grid-column-start: 1;
@@ -58,6 +58,12 @@ header {
   grid-column-start: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 @media screen and (max-width: 720px) {
   .page-wrapper {
