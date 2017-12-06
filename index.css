@@ -75,14 +75,14 @@ header {
   margin: 20px;
   padding: 10px;
 }
-.preamble>h1{
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+.preamble > h1 {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
-.preamble > p{
-    background-color: rgb(105, 100, 100);
-    padding: 15px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+.preamble > p {
+  background-color: rgb(105, 100, 100);
+  padding: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 .supporting {
   grid-column-start: 1;
