@@ -65,8 +65,8 @@ header {
       display: flex;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(8, 40%);
-    margin: auto;
+    grid-template-rows: repeat(9, 40%);
+    padding: 5em;
   }
   header {
     grid-column-start: 1;
@@ -109,5 +109,10 @@ header {
     grid-column-start: 1;
     grid-row-start: 7;
     grid-row-end: 8;
+}
+footer{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 9;
 }
 }
