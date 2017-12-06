@@ -61,9 +61,9 @@ header {
 }
 footer{
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 @media screen and (max-width: 720px) {
   .page-wrapper {
