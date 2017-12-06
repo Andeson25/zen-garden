@@ -60,12 +60,11 @@ header {
   grid-row-end: 3;
 }
 @media screen and (max-width: 720px) {
-   
   .page-wrapper {
-      display: flex;
+    display: flex;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(9, 40%);
+    grid-template-rows: repeat(10, 40%);
     padding: 5em;
   }
   header {
@@ -87,32 +86,37 @@ header {
     grid-row-end: 4;
   }
   .sidebar {
-    grid-column-start:1;
+    grid-column-start: 1;
     grid-row-start: 8;
   }
-  .explanation{
-      grid-column-start: 1;
-      grid-row-start: 4;
-      grid-row-end: 5;
+  .explanation {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
-  .participation{
+  .participation {
     grid-column-start: 1;
     grid-row-start: 5;
     grid-row-end: 6;
-}
-.benefits{
+  }
+  .benefits {
     grid-column-start: 1;
     grid-row-start: 6;
     grid-row-end: 7;
-}
-.requirements{
+  }
+  .requirements {
     grid-column-start: 1;
     grid-row-start: 7;
     grid-row-end: 8;
-}
-footer{
+  }
+  .sidebar{
     grid-column-start: 1;
     grid-row-start: 8;
     grid-row-end: 9;
-}
+  }
+  footer {
+    grid-column-start: 1;
+    grid-row-start: 9;
+    grid-row-end: 10;
+  }
 }
