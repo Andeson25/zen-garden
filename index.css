@@ -69,7 +69,7 @@ footer{
   .page-wrapper {
     display: flex;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(10, 40%);
     padding: 5em;
   }
